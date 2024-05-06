@@ -1,10 +1,8 @@
-# Vecino Vigilante microservice template
-
-A lightweight FastAPI scaffolding base to bootstrap App/API development
-
-- Recommended python version: 3.11
+# Markers Microservice
 
 ## For running on development:
+
+- Recommended python version: 3.11
 
 1. Create enviroment:
 
@@ -30,6 +28,12 @@ source env/bin/activate
 
 ```bash
 pip install -r requirements.txt
+```
+
+4. Do the database migration
+
+```bash
+python3 -m app.infrastructure.configs.migrate_database
 ```
 
 4. Run the server

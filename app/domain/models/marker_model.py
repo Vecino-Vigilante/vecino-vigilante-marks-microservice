@@ -5,7 +5,7 @@ class MarkerModel:
         incident_id: str,
         direction: str,
         latitude: float,
-        longitude: float      
+        longitude: float,      
     ) -> None:
         self.marker_id = marker_id
         self.incident_id = incident_id
